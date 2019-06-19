@@ -99,7 +99,9 @@ h3 {
 .resize {
 	max-width: 70%;
 }
-
+.newsize {
+	max-width:5%;
+}
 input[type=text] {
 	width: 30%;
 	padding: 8px 15px;
