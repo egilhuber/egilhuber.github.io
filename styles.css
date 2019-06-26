@@ -97,7 +97,7 @@ h3 {
 	font-size: 24px;
 }
 .resize {
-	max-width: 70%;
+	max-width: 60%;
 }
 .newsize {
 	max-width:5%;
@@ -178,4 +178,105 @@ div:hover {
 	[class*="col-"] {
 		width: 100%;
 	}
+}
+/*below is CSS for scoresheet table*/
+
+
+div.scoreSheet {
+  border: 8px solid #FF837D;
+  background-color: #EEEEEE;
+  width: 50%;
+  text-align: center;
+}
+.divTable.scoreSheet .divTableCell, .divTable.scoreSheet .divTableHead {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+.divTable.scoreSheet .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.divTable.scoreSheet .divTableRow:nth-child(even) {
+  background: #70FF9F;
+}
+.divTable.scoreSheet .divTableHeading {
+  background: #E8CF66;
+  background: -moz-linear-gradient(top, #eedb8c 0%, #ead375 66%, #E8CF66 100%);
+  background: -webkit-linear-gradient(top, #eedb8c 0%, #ead375 66%, #E8CF66 100%);
+  background: linear-gradient(to bottom, #eedb8c 0%, #ead375 66%, #E8CF66 100%);
+  border-bottom: 2px solid #444444;
+}
+.divTable.scoreSheet .divTableHeading .divTableHead {
+  font-size: 15px;
+  font-weight: bold;
+  color: #3D2B1F;
+  border-left: 2px solid #D0E4F5;
+}
+.divTable.scoreSheet .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.scoreSheet .tableFootStyle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #70FF9F;
+  background: -moz-linear-gradient(top, #94ffb7 0%, #7effa8 66%, #70FF9F 100%);
+  background: -webkit-linear-gradient(top, #94ffb7 0%, #7effa8 66%, #70FF9F 100%);
+  background: linear-gradient(to bottom, #94ffb7 0%, #7effa8 66%, #70FF9F 100%);
+  border-top: 2px solid #444444;
+}
+.scoreSheet .tableFootStyle {
+  font-size: 14px;
+}
+.scoreSheet .tableFootStyle .links {
+	 text-align: right;
+}
+.scoreSheet .tableFootStyle .links a{
+  display: inline-block;
+  background: #6A66E8;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.scoreSheet.outerTableFooter {
+  border-top: none;
+}
+.scoreSheet.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+/*dice*/
+
+div.dice{
+	/*float:left;*/
+	width:50px;
+	background:#F5F5F5;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+div.playerButton{
+	text-align:center;
+}
+.rollButton{
+	padding: 15px;
+}
+.diceRows{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+ul {
+	list-style-type: disc;
 }
